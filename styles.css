@@ -1,7 +1,5 @@
-* {font-family: monospace;}
-#by, #or {font-family: sans-serif;}
-
-body {
+* {
+    font-family: monospace;
     font-size: 1.1em;
 }
 
@@ -13,20 +11,19 @@ a {
     width: 100pt;
 } */
 
-option.clear {
-    color: #888;
-}
-
 option {
     display: block;
-    /*white-space: pre-wrap;*/
     padding: 0.2em;
 }
 
 option:hover {
     background: #ccf;
     font-family: monospace;
-    padding: 0.3em 0.2em;
+    padding: 0.2em;
+}
+
+option.clear {
+    color: #888;
 }
 
 .action {
