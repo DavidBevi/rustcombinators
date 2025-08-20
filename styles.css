@@ -1,6 +1,6 @@
 * {
     font-family: monospace;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 a {
@@ -28,11 +28,13 @@ option.clear {
 
 .action {
     width: 175pt;
+    height: 22em;
     float: left;
     padding: 0 0.2em 0.2em 0;
 }
 
 .action label {
+    font-size: 1.5em;
     display: block;
 }
 
@@ -48,9 +50,9 @@ option.clear {
     clear: both;
 }
 
-/* button {
-    font-size: 14pt;
-} */
+button {
+    font-size: 1.5em;
+}
 
 a[target="_blank"]:hover:after {
     content: ' ';
