@@ -1,17 +1,17 @@
 * {font-family: monospace;}
+#by, #or {font-family: sans-serif;}
 
 body {
-    font-size: 14pt;
+    font-size: 1.1em;
 }
 
 a {
     color: blue;
 }
 
-select {
+/* select {
     width: 100pt;
-    font-size: 10pt;
-}
+} */
 
 option.clear {
     color: #888;
@@ -20,17 +20,19 @@ option.clear {
 option {
     display: block;
     /*white-space: pre-wrap;*/
-    padding: 5pt;
+    padding: 0.2em;
 }
 
 option:hover {
     background: #ccf;
+    font-family: monospace;
+    padding: 0.3em 0.2em;
 }
 
 .action {
     width: 175pt;
     float: left;
-    padding: 0 5pt 5pt 0;
+    padding: 0 0.2em 0.2em 0;
 }
 
 .action label {
@@ -42,30 +44,30 @@ option:hover {
 }
 
 .action.or {
-    width: 200pt;
+    width: fit-content;
 }
 
 .clear {
     clear: both;
 }
 
-button {
+/* button {
     font-size: 14pt;
-}
+} */
 
 a[target="_blank"]:hover:after {
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 74 66'> <path d='M18 66q-14 0-14-14v-29q0-14 14-14 11 0 14-1c3-1 3 6 0 7q-3 1-14 1-7 0-7 7v29q0 7 7 7h29q7 0 7-7 0-12 1-15c1-3 8-3 7 0q-1 3-1 15 0 14-14 14zM70 26q0 5-4 1l-5-7q-5-1-28 22c-3 3-8-2-5-5q23-23 22-28l-7-5q-4-4 1-4h23q3 0 3 3z' fill='#0000ee'/></svg>");
     content: ' ';
-    width: 22pt;
-    height: 22pt;
     display: inline-block;
-    margin-left: 5pt;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 74 66'> <path d='M18 66q-14 0-14-14v-29q0-14 14-14 11 0 14-1c3-1 3 6 0 7q-3 1-14 1-7 0-7 7v29q0 7 7 7h29q7 0 7-7 0-12 1-15c1-3 8-3 7 0q-1 3-1 15 0 14-14 14zM70 26q0 5-4 1l-5-7q-5-1-28 22c-3 3-8-2-5-5q23-23 22-28l-7-5q-4-4 1-4h23q3 0 3 3z' fill='#0000ee'/></svg>");
+    width: 1.3em;
+    height: 1.1em;
+    margin-left: 0.2em;
 }
 
 .result {
-    margin: 20pt 0;
-    font-size: 24pt;
-    color: #0000ee;
+    margin: 0.2em;
+    font-size: 1.5em;
+    color: blue;
 }
 
 .result a {
@@ -74,6 +76,6 @@ a[target="_blank"]:hover:after {
 }
 
 .result a:hover {
-    color: #0000ee;
+    color: blue;
     text-decoration: underline;
 }
